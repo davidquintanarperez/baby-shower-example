@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/baby-shower-example/static/css/main.5137f7c0.css",
-    "main.js": "/baby-shower-example/static/js/main.cb19b923.js",
+    "main.css": "/baby-shower-example/static/css/main.f8780d95.css",
+    "main.js": "/baby-shower-example/static/js/main.742901ca.js",
     "static/media/Stork.png": "/baby-shower-example/static/media/Stork.f9a12a58c4975c1982c8.png",
     "index.html": "/baby-shower-example/index.html",
-    "main.5137f7c0.css.map": "/baby-shower-example/static/css/main.5137f7c0.css.map",
-    "main.cb19b923.js.map": "/baby-shower-example/static/js/main.cb19b923.js.map"
+    "main.f8780d95.css.map": "/baby-shower-example/static/css/main.f8780d95.css.map",
+    "main.742901ca.js.map": "/baby-shower-example/static/js/main.742901ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.5137f7c0.css",
-    "static/js/main.cb19b923.js"
+    "static/css/main.f8780d95.css",
+    "static/js/main.742901ca.js"
   ]
 }
