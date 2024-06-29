@@ -1,0 +1,77 @@
+.stork {
+    position: absolute;
+    animation: fly 40s linear infinite;
+}
+
+.stork img {
+    width: 20vw; /* Tamaño inicial */
+    height: auto; /* Auto ajuste de altura */
+    animation: grow 40s linear infinite;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateX(-50vw) translateY(0vh);
+    }
+    
+    25% {
+        transform: translateX(120vw) translateY(25vh);
+    }
+    
+    50% {
+        transform: translateX(-20vw) translateY(50vh);
+    }
+    
+    75% {
+        transform: translateX(120vw) translateY(75vh);
+    }
+    
+    100% {
+        transform: translateX(-20vw) translateY(100vh);
+    }
+}
+
+@keyframes grow {
+    0% {
+        width: 5vw;
+    }
+
+    24% {
+        transform: scaleX(1);
+    }
+    
+    25% {
+        width: 10vw;
+        transform: scaleX(-1);
+    }
+    
+
+    49% {
+        transform: scaleX(-1);
+    }
+
+    50% {
+        width: 15vw;
+        transform: scaleX(1);
+    }
+    
+
+    74% {
+        transform: scaleX(1);
+    }
+
+    75% {
+        width: 20vw;
+        transform: scaleX(-1);
+    }
+    
+
+    99% {
+        transform: scaleX(-1);
+    }
+
+    100% {
+        width: 25vw;
+        transform: scaleX(1);
+    }
+}

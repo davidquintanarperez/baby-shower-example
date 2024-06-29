@@ -1,0 +1,32 @@
+.cloud {
+  width: 15vw; /* Ancho aumentado de la nube en función del ancho de la ventana */
+  height: 7.5vw; /* Altura aumentada de la nube en función del ancho de la ventana */
+  background-color: #fff; /* Color de fondo */
+  border-radius: 3.75vw; /* Radio de borde ajustado para mantener las esquinas redondeadas */
+  position: absolute; /* Posición absoluta para posicionar la nube */
+  box-shadow: 0.75vw 0.75vw 1.5vw rgba(0, 0, 0, 0.2); /* Sombra con unidades relativas */
+}
+
+.cloud::before,
+.cloud::after {
+  content: '';
+  position: absolute;
+  background-color: #fff;
+}
+
+/* Forma de la nube: ajuste de los pseudoelementos ::before y ::after */
+.cloud::before {
+  width: 9vw; /* Ancho aumentado del elemento antes de la nube */
+  height: 7.5vw; /* Altura ajustada del elemento antes de la nube */
+  top: -1.5vw; /* Posición desde arriba ajustada con unidades relativas */
+  left: 1.5vw; /* Posición desde la izquierda ajustada con unidades relativas */
+  border-radius: 7.5vw; /* Radio de borde aumentado con unidades relativas */
+}
+
+.cloud::after {
+  width: 9vw; /* Ancho aumentado del elemento después de la nube */
+  height: 9vw; /* Altura ajustada del elemento después de la nube */
+  top: -3.75vw; /* Posición desde arriba ajustada con unidades relativas */
+  right: 0.75vw; /* Posición desde la derecha ajustada con unidades relativas */
+  border-radius: 7.5vw; /* Radio de borde aumentado con unidades relativas */
+}

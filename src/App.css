@@ -1,0 +1,30 @@
+.aos-element {
+    margin: 50px 0;
+}
+
+/* Define la animación de salto */
+@keyframes jump {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Añade la animación al data-aos="jump" */
+[data-aos="jump"] {
+    opacity: 0; /* Asegúrate de que el elemento esté oculto inicialmente */
+    transition-property: opacity, transform;
+    transition-duration: 0.8s; /* Duración de la animación */
+}
+
+[data-aos="jump"].aos-animate {
+    opacity: 1;
+    animation: jump 0.8s ease-in-out;
+}

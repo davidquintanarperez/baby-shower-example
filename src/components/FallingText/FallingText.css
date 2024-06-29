@@ -1,0 +1,14 @@
+.falling-text-container {
+  color: #11324D;
+  -webkit-text-stroke: 1px #11324D;
+  text-stroke: 1px #11324D;
+}
+
+.falling-letter {
+  display: inline-block;
+}
+
+.falling-letter.space {
+  width: 1rem;
+  display: inline-block;
+}
